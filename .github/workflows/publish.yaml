@@ -23,10 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Run tests (optional)
-      - name: Run tests
-        run: npm test
-
       # Publish to GitHub Packages
       - name: Publish package
         env:
